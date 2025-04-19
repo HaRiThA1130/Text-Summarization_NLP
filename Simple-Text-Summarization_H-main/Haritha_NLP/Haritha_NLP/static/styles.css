@@ -1,0 +1,113 @@
+/* General page styling */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Page heading */
+h1 {
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* About page styling */
+.about-content {
+    text-align: justify;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Contact page team section */
+.team-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.team-member img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.team-member-info {
+    font-size: 16px;
+    color: #333;
+}
+
+.team-member-info .name {
+    font-weight: bold;
+    color: #333;
+}
+
+.team-member-info .role {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Navigation bar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #4CAF50;
+}
+
+/* Container and form styling */
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Buttons styling */
+.submit-btn,
+.reset-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+.submit-btn:hover,
+.reset-btn:hover {
+    background-color: #45a049;
+}
+
+/* Keep other previous styles */

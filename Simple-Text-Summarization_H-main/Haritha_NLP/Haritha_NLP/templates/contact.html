@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Feel free to reach out to any of our team members below:</p>
+
+        <div class="team-container">
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='images/member1.jpg') }}" alt="Member 1">
+                <div class="team-member-info">
+                    <p class="name">M Haritha</p>
+                    <p class="role">Team Leader & Project Manager</p>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='images/member2.jpg') }}" alt="Member 2">
+                <div class="team-member-info">
+                    <p class="name">Bob Smith</p>
+                    <p class="role">Lead Developer</p>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='images/member3.jpg') }}" alt="Member 3">
+                <div class="team-member-info">
+                    <p class="name">Carol Martinez</p>
+                    <p class="role">AI Specialist</p>
+                </div>
+            </div>
+
+            <div class="team-member">
+                <img src="{{ url_for('static', filename='images/member4.jpg') }}" alt="Member 4">
+                <div class="team-member-info">
+                    <p class="name">David Lee</p>
+                    <p class="role">UI/UX Designer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
